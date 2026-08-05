@@ -68,6 +68,20 @@ Run stocks dashboard:
 python -m app.stocks
 ```
 
+### Web App
+
+Run the web application:
+
+```sh
+FLASK_APP=web_app flask run
+```
+
+Then visit the application in your browser:
+
+```text
+http://localhost:5000/
+```
+
 ## Testing
 
 Run tests:
